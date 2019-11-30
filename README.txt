@@ -23,3 +23,26 @@ And the Program language is Python 3.7
 the package including: pandas,sklearn.
 
 Finally, if you want to run this code, please modify your own file_path for data in this code, and choose a 'test_size' for yourself
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
