@@ -16,3 +16,10 @@ And for Method 2, I just use 5 variables to predict the play_time, without those
 And for Method 1, firstly I combine those 5 variables with dummy variables, and then using GBDT as a classificator to predict whether the user will play one game, which means I consider there is a new label 'play_or_not' for samples in training set, if the 'playtime_forever'==0, this variable will be 0, otherwise, it will be 1. 
 
 Then training a simple linear regression model via the subset of training set with 'play_or_not'==1, and predicting the 'playtime_forever' for testing data which is predicted will be played by user
+
+And for the code, there is only one coef for function, which means the size of self-testing set splited from training set.
+
+And the Program language is Python 3.7
+the package including: pandas,sklearn.
+
+Finally, if you want to run this code, please modify your own file_path for data in this code, and choose a 'test_size' for yourself
